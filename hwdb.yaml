@@ -91,7 +91,27 @@
   egpu: unknown
   notes: Requires manual steps to fix out of phase speakers on some devices
 
-- name: Aya Neo Air Plus
+- name: Aya NeoKUN
+  type: handheld
+  speakers: unsupported
+  touch_screen: supported
+  screen_orientation: limited-support
+  headphone_jack: unsupported
+  bluetooth: supported
+  wifi: supported
+  gamepad: supported
+  volume_buttons: supported
+  extra_buttons: limited-support
+  suspend: unsupported
+  gyro: unknown
+  micro_sd: supported
+  video_out: supported
+  ethernet: supported
+  tdp_control: unsupported
+  egpu: unknown
+  notes: Requires manual steps to rotate display on desktop mode.
+
+  - name: Aya Neo Air Plus
   type: handheld
   speakers: supported
   touch_screen: supported
